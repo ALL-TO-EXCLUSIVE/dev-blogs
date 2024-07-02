@@ -22,7 +22,7 @@ const page = async ({ params }) => {
         className="w-full object-cover rounded-2xl my-10"
         src={blog.imageUrl}
       />
-      <div className="px-10" dangerouslySetInnerHTML={{ __html: blog.content }} />
+      <div className="md:px-10" dangerouslySetInnerHTML={{ __html: blog.content }} />
     </article>
   );
 };

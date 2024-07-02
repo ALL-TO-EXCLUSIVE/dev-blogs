@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+
+#bloglist a:nth-child(1){
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: start !important;
+  align-items: start !important;
+  margin-bottom: 16px;
+  img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
